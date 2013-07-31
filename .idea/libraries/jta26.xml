@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jta26">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/jta26.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/MudClientSwing/lib/jta26.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

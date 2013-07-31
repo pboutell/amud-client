@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MudClientSwing.iml" filepath="$PROJECT_DIR$/MudClientSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mud-client.iml" filepath="$PROJECT_DIR$/mud-client.iml" />
     </modules>
   </component>
 </project>

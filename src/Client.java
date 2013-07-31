@@ -1,32 +1,21 @@
-/**
- * Created with IntelliJ IDEA.
- * User: parker
- * Date: 7/28/13
- * Time: 11:57 AM
- * To change this template use File | Settings | File Templates.
- */
-
 import javax.swing.*;
-import java.awt.BorderLayout;
+import java.awt.*;
 
-class Client {
+public class Client extends JFrame  {
 
-    private static void run() {
-        TerminalWindow term = new TerminalWindow();
-        JTabbedPane tabbedPane = new JTabbedPane();
-        JFrame frame = new JFrame();
+    private JTabbedPane tabbedPane1;
 
-        tabbedPane.addTab("blah", term);
-        tabbedPane.setVisible(true);
+    TerminalWindow terminal = new TerminalWindow();
 
-        frame.setLayout(new BorderLayout());
-        frame.add(tabbedPane, BorderLayout.CENTER);
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        frame.setSize(1024, 768);
+    Client () {
+        terminal.setVisible(true);
+
+        tabbedPane1.addTab("blah", terminal);
+        tabbedPane1.setVisible(true);
+
+        this.setLayout(new BorderLayout());
+        this.add(tabbedPane1, BorderLayout.CENTER);
     }
 
-    public static void main(String[] args) {
-        run();
-    }
+
 }

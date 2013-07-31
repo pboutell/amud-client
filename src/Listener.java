@@ -3,13 +3,6 @@ import de.mud.terminal.SwingTerminal;
 import java.io.IOException;
 import de.mud.terminal.vt320;
 
-/**
- * Created with IntelliJ IDEA.
- * User: parker
- * Date: 7/28/13
- * Time: 1:50 PM
- * To change this template use File | Settings | File Templates.
- */
 class Listener implements Runnable {
     private TelnetWrapper telnet;
     private SwingTerminal terminal;
