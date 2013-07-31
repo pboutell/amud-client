@@ -1,4 +1,4 @@
-rmud-client
+amud-client
 ===========
 
 a mud client
