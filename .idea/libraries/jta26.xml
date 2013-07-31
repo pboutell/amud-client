@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jta26">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jta26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
